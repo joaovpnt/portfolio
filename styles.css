@@ -1,0 +1,121 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes menuHighlight {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header {
+    transition: all 0.3s ease-in-out;
+}
+
+header:hover {
+    background-color: #1E293B;
+}
+
+nav a:hover {
+    color: #38bdf8;
+    animation: menuHighlight 0.3s ease-in-out;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+    background: linear-gradient(to bottom right, #1e293b, #374151);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-title {
+    color: #38bdf8;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-details {
+    color: #cbd5e1;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.project-link {
+    margin-top: 1rem;
+    display: inline-block;
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+.experience-card {
+    background: linear-gradient(to bottom right, #1e293b, #374151);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.experience-icon {
+    font-size: 3rem;
+    color: #38bdf8;
+}
+
+.experience-title {
+    color: #38bdf8;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.experience-details {
+    color: #cbd5e1;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.experience-period {
+    margin-top: 0.5rem;
+    color: #94a3b8;
+    font-size: 0.85rem;
+}

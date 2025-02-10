@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - João Victor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Header -->
+    <header class="bg-gray-800 shadow sticky top-0 z-50">
+        <div class="container mx-auto p-5 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-teal-400">João Victor</h1>
+            <nav>
+                <a href="#about" class="mx-3 text-gray-300 hover:text-teal-400 transition-colors">Sobre Mim</a>
+                <a href="#projects" class="mx-3 text-gray-300 hover:text-teal-400 transition-colors">Projetos</a>
+                <a href="#skills" class="mx-3 text-gray-300 hover:text-teal-400 transition-colors">Habilidades</a>
+                <a href="#experiences" class="mx-3 text-gray-300 hover:text-teal-400 transition-colors">Experiências</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-teal-500 to-blue-600 text-white text-center py-20">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-extrabold animate-fadeIn">Transformando dados em soluções inteligentes com IA</h2>
+            <p class="mt-6 text-lg">Data Science, Machine Learning e IA aplicada</p>
+            <div class="mt-8 flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/joaovpnt" class="text-4xl hover:scale-110 transform transition-transform"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/joaovpnt" class="text-4xl hover:scale-110 transform transition-transform"><i class="fab fa-github"></i></a>
+                <a href="curriculo.pdf" class="text-4xl hover:scale-110 transform transition-transform"><i class="fas fa-file"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-teal-400">Sobre Mim</h2>
+            <p class="mt-4 max-w-3xl mx-auto text-gray-300">
+                Olá! Eu sou João Victor, um desenvolvedor com experiência em IA, Machine Learning e Data Science. Minhas principais ferramentas incluem Python, SkLearn, LangChain, FastAPI, Pandas e NumPy. Trabalho na construção de soluções escaláveis e intuitivas, com interfaces desenvolvidas em React e HTML/CSS.
+            </p>
+            <div class="mt-8 flex justify-center space-x-6">
+                <i class="fab fa-python text-5xl text-yellow-400 animate-slideIn" title="Python"></i>
+                <i class="fas fa-brain text-5xl text-teal-400 animate-slideIn" title="LangChain"></i>
+                <i class="fas fa-network-wired text-5xl text-red-400 animate-slideIn" title="FastAPI"></i>
+                <i class="fas fa-cogs text-5xl text-green-400 animate-slideIn" title="SkLearn"></i>
+                <i class="fas fa-microchip text-5xl text-yellow-300 animate-slideIn" title="NumPy"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-teal-400">Habilidades</h2>
+            <div class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fab fa-python text-4xl text-yellow-400"></i>
+                    <p class="mt-3 text-gray-300">Python</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fas fa-database text-4xl text-purple-400"></i>
+                    <p class="mt-3 text-gray-300">SQL</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fab fa-react text-4xl text-blue-400"></i>
+                    <p class="mt-3 text-gray-300">React</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fas fa-network-wired text-4xl text-red-400"></i>
+                    <p class="mt-3 text-gray-300">FastAPI</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fas fa-brain text-4xl text-orange-400"></i>
+                    <p class="mt-3 text-gray-300">LangChain</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fas fa-code text-4xl text-indigo-400"></i>
+                    <p class="mt-3 text-gray-300">HTML & CSS</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fas fa-cogs text-4xl text-green-400"></i>
+                    <p class="mt-3 text-gray-300">SkLearn</p>
+                </div>
+                <div class="bg-gray-800 shadow-md rounded-md p-5 text-center animate-slideIn">
+                    <i class="fas fa-microchip text-4xl text-yellow-400"></i>
+                    <p class="mt-3 text-gray-300">NumPy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="bg-gray-800 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-teal-400">Projetos</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="project-card">
+                    <h3 class="project-title">Spotify Data Analysis</h3>
+                    <p class="project-details">Projeto de análise de dados do Spotify para identificar tendências musicais e preferências dos usuários. Inclui coleta, pré-processamento e visualização dos dados.</p>
+                    <a href="https://github.com/joaovpnt/spotify-analysis" class="project-link">Ver no GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">IMDB Sentiment Analysis</h3>
+                    <p class="project-details">Análise de sentimentos com dados do IMDB, utilizando modelos de aprendizado de máquina como Logistic Regression e Random Forest para prever polaridades.</p>
+                    <a href="https://github.com/joaovpnt/imdb_model" class="project-link">Ver no GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Clusterização de Jogadores</h3>
+                    <p class="project-details">Projeto de clusterização de jogadores baseado em dados do FC25, identificando perfis únicos e grupos com características similares.</p>
+                    <a href="https://colab.research.google.com/drive/102yu2DEn3ojHrtcVyAlTfeh9UJDD6XlD?usp=sharing" class="project-link">Abrir no Colab</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences -->
+    <section id="experiences" class="py-20 bg-gray-900">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-teal-400 text-center">Experiências</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="experience-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-laptop-code experience-icon mr-3"></i>
+                        <h3 class="experience-title">Engenheiro de IA</h3>
+                    </div>
+                    <p class="experience-details">Criação de um sistema de resumo, comparação e transcrição utilizando FastAPI, Python e LangChain, integrando soluções robustas para processamento e análise de dados.</p>
+                    <p class="experience-details">Implementação de serviços da Azure para Machine Learning, otimizando o desempenho do sistema e garantindo escalabilidade e confiabilidade nas operações.</p>
+                    <p class="experience-details">Desenvolvimento de fluxos automatizados para análise textual e comparações inteligentes, aplicando tecnologias avançadas para simplificar processos complexos.</p>
+                    <p class="experience-period">Banese | 2024 - Atual</p>
+                </div>
+                <div class="experience-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-tools experience-icon mr-3"></i>
+                        <h3 class="experience-title">Programador Trainee</h3>
+                    </div>
+                    <p class="experience-details">Realizei investigações aprofundadas em diferentes tipos de inteligência artificial, explorando suas aplicações práticas e possibilidades de inovação.</p>
+                    <p class="experience-details">Desenvolvi um MVP focado no processamento de código para engenharia reversa e atualização de código legado, utilizando técnicas modernas para simplificar e automatizar processos.</p>
+                    <p class="experience-period">Banese | 2024 - 2024</p>
+                </div>
+                <div class="experience-card">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-network-wired experience-icon mr-3"></i>
+                        <h3 class="experience-title">Estagiário em Monitoramento de Redes</h3>
+                    </div>
+                    <p class="experience-details">Pesquisas sobre recursos de redes para contribuição em projetos ou atividades.</p>
+                    <p class="experience-details">Prototipar telas para utilização em recursos de visualização. Desenvolver telas utilizando o Grafana.</p>
+                    <p class="experience-details">Monitorar fluxo de dados, julgar métricas e analisar dados a partir das ferramentas Zabbix e Grafana.</p>
+                    <p class="experience-period">Universidade Tiradentes | 2023 - 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-6">
+        <div class="container mx-auto text-center">
+            <p>Desenvolvido com Python, amor por IA e hospedado no <a href="https://pages.github.com" class="text-teal-400 hover:underline">GitHub Pages</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
